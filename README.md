@@ -8,17 +8,17 @@ Your birthday surprise is at: "Hgx Angwkxw Hkvatkw Khtw, Vhgvhkwx Ahmxe & Lahiib
 
 1. Clone this repository
 2. Install dependencies: `npm install`
-3. Run `mocha test.js --watch` (to terminate the tests, hit `Ctrl C`)
-4. To activate the next test, change `xit(...)` to `it(...)` (`x` is `mocha`'s way of skipping tests')
+3. Run **`mocha test.js --watch`** (to terminate the tests, hit `Ctrl C`)
+4. To activate the next test, change `xit(...)` to `it(...)` in `test.js` (`x` is `mocha`'s way of skipping tests')
 5. Implement your solution in `solution.js`
 6. When all tests have passed, run `node solution.js "Hgx Angwkxw Hkvatkw Khtw, Vhgvhkwx Ahmxe & Lahiibgz Ftee, #sxkhmph-yhkmrmakxx"`
 7. Get to your birthday surprise!
 
 ### What is a Caesar cipher?
 
-Given 2 arguments (`string` and `shiftAmount`), `encrypt(string, shiftAmount)` will convert a given string into a Caesar cipher by shifting each letter in the string *"up"* by the amount as indicated by `shiftAmount`.
+Given 2 arguments (`string` and `shiftAmount`), `encrypt(string, shiftAmount)` will convert a given string into a Caesar cipher by shifting each letter in the string **"up"** by the amount as indicated by `shiftAmount`.
 
-Similarly, `decrypt(string, shiftAmount)` will decrypt a caesar cipher into a string by shifting each letter in the encrypted string *"down"* by the amount indicated by `shiftAmount`
+Similarly, `decrypt(string, shiftAmount)` will decrypt a caesar cipher into a string by shifting each letter in the encrypted string **"down"** by the amount indicated by `shiftAmount`
 
 Both `encrypt(string, shiftAmount)` and `decrypt(string, shiftAmount)` applies **only** to upper-case and lower-case alphabets (i.e. it does not shift non-alphabetical characters such as `-`, `_`, `#`, `<space>`, `!!`, etc). The second argument to the `decrypt(string, shiftAmount)` and `encrypt(string, shiftAmount)` (i.e. `shiftAmount`) will be a positive number greater than 0.
 
